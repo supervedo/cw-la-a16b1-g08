@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Diary - India, Greece &amp; Morocco</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Travel Diary</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#india">India</a></li>
+          <li class="nav-item"><a class="nav-link" href="#greece">Greece</a></li>
+          <li class="nav-item"><a class="nav-link" href="#morocco">Morocco</a></li>
+          <li class="nav-item"><a class="nav-link" href="#credits">Photo Credits</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slide 1: 3-Column Hero -->
+  <header id="home" class="split-hero">
+    <div class="row g-0">
+      <a href="#india" class="col-md-4 split-panel" style="background-image: url('images/slide01_india_gate.jpg');">
+        <div class="country-label">INDIA</div>
+      </a>
+      <a href="#greece" class="col-md-4 split-panel" style="background-image: url('images/slide01_greece_navagio.jpg');">
+        <div class="country-label">GREECE</div>
+      </a>
+      <a href="#morocco" class="col-md-4 split-panel" style="background-image: url('images/slide01_morocco_dunes.jpg');">
+        <div class="country-label">MOROCCO</div>
+      </a>
+    </div>
+    <div class="hero-overlay-top"><h1>Welcome To The Travel Diary</h1></div>
+    <div class="hero-overlay-mid"><p>How do flavors and traditions connect strangers across continents?</p></div>
+    <div class="hero-start-btn"><a href="#india" class="btn btn-dark btn-lg">Start Journey &darr;</a></div>
+  </header>
+
+  <main>
+    <!-- Chapter 1: India -->
+    <div id="india">
+      <section class="story-slide" style="background-image: url('images/slide02_india_culture.jpg');">
+        <div class="slide-text pos-top-left text-india-orange shadow-dark">
+          <h2>INDIAN CULTURE</h2>
+          <p>Living heritage in every courtyard</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide03_india_cuisine.jpg');">
+        <div class="slide-text pos-bottom-right text-white-clean shadow-light">
+          <h2>INDIAN CUISINE</h2>
+          <p>Spices that tell a story</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide04_india_bazaar.jpg');">
+        <div class="slide-text pos-upper-right text-bazaar-green">
+          <h2>LOCAL EXPERIENCE</h2>
+          <p>Morning rush in the bazaar</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide05_next_greece_taj.jpg');">
+        <div class="slide-text pos-top-left text-white-clean shadow-light">
+          <h2>NEXT STOP : GREECE</h2>
+          <p>&rarr;<br>From vibrant spices to the<br>Aegean Sea</p>
+        </div>
+      </section>
+      <div class="country-info-section">
+        <div class="container">
+          <h3 class="mb-4" style="color: #ff6b00;">About India &mdash; Culture, Flavors &amp; Life</h3>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card country-card border-india h-100"><div class="card-body">
+                <h5 class="card-title">Living Heritage</h5>
+                <p class="card-text">Built in the 16th century by Emperor Akbar, Agra Fort is a UNESCO World Heritage site of red sandstone courtyards overlooking the Taj Mahal.</p>
+                <button class="btn btn-outline-warning btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#india1">Read More</button>
+                <div class="collapse mt-2" id="india1"><small class="text-light">Its 2.5 km walls enclose marble palaces like the Khas Mahal and Musamman Burj along the Yamuna River.</small></div>
+              </div></div>
+            </div>
+            <div class="col-md-4">
+              <div class="card country-card border-india h-100"><div class="card-body">
+                <h5 class="card-title">Spices &amp; Chai</h5>
+                <p class="card-text">Indian masala chai blends black tea and milk with crushed cardamom, cinnamon, cloves, and ginger—often poured into earthy clay cups (kulhads).</p>
+                <button class="btn btn-outline-warning btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#india2">Read More</button>
+                <div class="collapse mt-2" id="india2"><small class="text-light">Every household and street stall has its own secret spice ratio passed down through generations.</small></div>
+              </div></div>
+            </div>
+            <div class="col-md-4">
+              <div class="card country-card border-india h-100"><div class="card-body">
+                <h5 class="card-title">Morning Bazaars</h5>
+                <p class="card-text">Before sunrise, flower markets fill with sacks of bright marigolds, roses, and jasmine woven into garlands for temples, weddings, and homes.</p>
+                <button class="btn btn-outline-warning btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#india3">Read More</button>
+                <div class="collapse mt-2" id="india3"><small class="text-light">Vendors call out prices in rhythm while buyers inspect petals by hand in the cool morning air.</small></div>
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chapter 2: Greece (Slides 6-9 + Info Cards) -->
+    <div id="greece">
+      <section class="story-slide" style="background-image: url('images/slide06_greece_culture.jpg');">
+        <div class="slide-text pos-greece-culture text-dark-clean">
+          <h2>GREECE CULTURE</h2>
+          <p>Where ancient stone meets open sky</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide07_greece_cuisine.jpg');">
+        <div class="slide-text pos-top-left text-white-clean shadow-light">
+          <h2>GREECE CUISINE</h2>
+          <p>Fresh from the sea and orchard</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide08_greece_harbour.jpg');">
+        <div class="slide-text pos-top-left text-dark-clean">
+          <h2>LOCAL EXPERIENCE</h2>
+          <p>Slowing down by the harbour</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide09_next_morocco_oia.jpg');">
+        <div class="slide-text pos-top-left text-white-clean shadow-light">
+          <h2>NEXT STOP : MOROCCO &rarr;</h2>
+          <p>Across the Mediterranean to desert gates</p>
+        </div>
+      </section>
+
+      <div class="country-info-section">
+        <div class="container">
+          <h3 class="mb-4" style="color: #38bdf8;">About Greece &mdash; Stone, Sea &amp; Table</h3>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card country-card border-greece h-100"><div class="card-body">
+                <h5 class="card-title">The Acropolis</h5>
+                <p class="card-text">Rising 156 meters above Athens, the rocky Acropolis is crowned by the Parthenon—a 5th-century BCE marble temple dedicated to Athena.</p>
+                <button class="btn btn-outline-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#greece1">Read More</button>
+                <div class="collapse mt-2" id="greece1"><small class="text-light">The Parthenon is celebrated as a lasting symbol of classical Doric architecture and ancient Athenian democracy.</small></div>
+              </div></div>
+            </div>
+            <div class="col-md-4">
+              <div class="card country-card border-greece h-100"><div class="card-body">
+                <h5 class="card-title">Mediterranean Table</h5>
+                <p class="card-text">Greek cuisine shines through simple, fresh ingredients: ripe tomatoes, cucumbers, Kalamata olives, creamy feta, olive oil, and warm pita.</p>
+                <button class="btn btn-outline-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#greece2">Read More</button>
+                <div class="collapse mt-2" id="greece2"><small class="text-light">Meals are meant to be shared slowly around the table with family, neighbors, and travelers alike.</small></div>
+              </div></div>
+            </div>
+            <div class="col-md-4">
+              <div class="card country-card border-greece h-100"><div class="card-body">
+                <h5 class="card-title">Aegean Harbours</h5>
+                <p class="card-text">In island towns like Oia on Santorini, whitewashed houses and blue-domed chapels overlook volcanic cliffs and calm turquoise waters.</p>
+                <button class="btn btn-outline-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#greece3">Read More</button>
+                <div class="collapse mt-2" id="greece3"><small class="text-light">At dusk, narrow stone stairways glow with warm lantern light as fishing boats return to port.</small></div>
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chapter 3: Morocco (Slides 10-13 + Info Cards) -->
+    <div id="morocco">
+      <section class="story-slide" style="background-image: url('images/slide10_morocco_culture.jpg');">
+        <div class="slide-text pos-bottom-left text-white-clean shadow-light">
+          <h2>MOROCCO CULTURE</h2>
+          <p>Geometry carved in clay and cedar</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide11_morocco_cuisine.jpg');">
+        <div class="slide-text pos-top-left text-dark-clean">
+          <h2>MOROCCO CUISINE</h2>
+          <p>Slow-cooked warmth and sweet mint</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide12_morocco_desert_camp.jpg');">
+        <div class="slide-text pos-bottom-right text-white-clean shadow-light">
+          <h2>LOCAL EXPERIENCE</h2>
+          <p>Lanterns and stories in the souk</p>
+        </div>
+      </section>
+      <section class="story-slide" style="background-image: url('images/slide13_journey_complete.jpg');">
+        <div class="slide-text pos-center-blue text-journey-blue">
+          <h2>JOURNEY COMPLETE</h2>
+          <p>Three worlds, one shared spirit.</p>
+        </div>
+      </section>
+
+      <div class="country-info-section">
+        <div class="container">
+          <h3 class="mb-4" style="color: #60a5fa;">About Morocco &mdash; Craft, Tea &amp; Desert</h3>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card country-card border-morocco h-100"><div class="card-body">
+                <h5 class="card-title">Zellij &amp; Cedar</h5>
+                <p class="card-text">Moroccan riads and courtyards feature intricate geometric zellij tilework, carved plaster, and arched cedarwood doors built around peaceful gardens.</p>
+                <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#morocco1">Read More</button>
+                <div class="collapse mt-2" id="morocco1"><small class="text-light">Each tiny hand-chiseled glazed tile fits together without a single wasted space, reflecting light all day.</small></div>
+              </div></div>
+            </div>
+            <div class="col-md-4">
+              <div class="card country-card border-morocco h-100"><div class="card-body">
+                <h5 class="card-title">Mint Tea Ritual</h5>
+                <p class="card-text">Known locally as Atay, Moroccan mint tea is brewed with green tea, fresh spearmint, and sugar, then poured from high above the glass.</p>
+                <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#morocco2">Read More</button>
+                <div class="collapse mt-2" id="morocco2"><small class="text-light">Pouring from a height creates a frothy top and symbolizes genuine welcome to every guest who enters.</small></div>
+              </div></div>
+            </div>
+            <div class="col-md-4">
+              <div class="card country-card border-morocco h-100"><div class="card-body">
+                <h5 class="card-title">Souks &amp; Sahara</h5>
+                <p class="card-text">From lantern-lit souk alleyways to quiet desert camps on golden Sahara dunes, evenings in Morocco center on stories around warm tea.</p>
+                <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#morocco3">Read More</button>
+                <div class="collapse mt-2" id="morocco3"><small class="text-light">Across shifting sand dunes at sunset, travelers and hosts share music and meals under clear desert skies.</small></div>
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 14: Closing Message -->
+    <section id="closing" class="split-hero">
+      <div class="row g-0">
+        <div class="col-md-4 split-panel" style="background-image: url('images/slide01_india_gate.jpg');"></div>
+        <div class="col-md-4 split-panel" style="background-image: url('images/slide01_greece_navagio.jpg');"></div>
+        <div class="col-md-4 split-panel" style="background-image: url('images/slide01_morocco_dunes.jpg');"></div>
+      </div>
+      <div class="closing-wash"></div>
+      <div class="closing-text-box">
+        <p>Different languages and landscapes - yet shared food and hostility connect us everywhere</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Photo Credits -->
+  <section id="credits" class="credits-section">
+    <div class="container">
+      <h3 class="fw-bold mb-3">Photo Credits &amp; Sources</h3>
+      <div class="table-responsive">
+        <table class="table table-striped table-bordered align-middle">
+          <thead class="table-dark">
+            <tr><th>Slide</th><th>Section</th><th>Subject</th><th>Source / Credit</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1 &amp; 14 (L)</td><td>India</td><td>India Gate, New Delhi</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>1 &amp; 14 (C)</td><td>Greece</td><td>Navagio Beach, Zakynthos</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>1 &amp; 14 (R)</td><td>Morocco</td><td>Sahara Dunes at Sunset</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>2</td><td>India Culture</td><td>Agra Fort Courtyard</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>3</td><td>India Cuisine</td><td>Masala Chai &amp; Spices</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>4</td><td>India Experience</td><td>Morning Flower Bazaar</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>5</td><td>Next: Greece</td><td>Taj Mahal at Sunset</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>6</td><td>Greece Culture</td><td>Acropolis &amp; Parthenon</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>7</td><td>Greece Cuisine</td><td>Greek Salad &amp; Pita</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>8</td><td>Greece Experience</td><td>Santorini Blue Domes</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>9</td><td>Next: Morocco</td><td>Oia Village at Dusk</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>10</td><td>Morocco Culture</td><td>Zellij Courtyard &amp; Arches</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>11</td><td>Morocco Cuisine</td><td>Silver Teapot &amp; Mint Tea</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>12</td><td>Morocco Experience</td><td>Sahara Desert Camp</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+            <tr><td>13</td><td>Journey Complete</td><td>Golden Sahara Dunes</td><td>Team Figma Storyboard (LA_A16B1_G08_TravelDiary)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <small>LA_A16B1_G08 &mdash; Travel Diary (India, Greece, Morocco) | HTML, CSS &amp; Bootstrap 5</small>
+  </footer>
+
+  <!-- Floating Slide Controls -->
+  <div class="slide-controls">
+    <button id="prevBtn" class="btn btn-dark btn-sm">&larr; Prev</button>
+    <span id="slideCounter" class="mx-2 fw-bold">1 / 14</span>
+    <button id="nextBtn" class="btn btn-dark btn-sm">Next &rarr;</button>
+    <a href="#home" class="btn btn-outline-dark btn-sm ms-1">&uarr; Top</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const allSlides = document.querySelectorAll('#home, .story-slide, #closing');
+    const counter = document.getElementById('slideCounter');
+    let currentIndex = 0;
+
+    function goToSlide(index) {
+      currentIndex = Math.max(0, Math.min(index, allSlides.length - 1));
+      allSlides[currentIndex].scrollIntoView({ behavior: 'smooth' });
+      counter.textContent = (currentIndex + 1) + ' / ' + allSlides.length;
+    }
+
+    document.getElementById('prevBtn').onclick = () => goToSlide(currentIndex - 1);
+    document.getElementById('nextBtn').onclick = () => goToSlide(currentIndex + 1);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown') { e.preventDefault(); goToSlide(currentIndex + 1); }
+      if (e.key === 'ArrowUp') { e.preventDefault(); goToSlide(currentIndex - 1); }
+    });
+
+    window.addEventListener('scroll', () => {
+      let closest = 0, minDist = Infinity;
+      allSlides.forEach((s, i) => {
+        const d = Math.abs(s.getBoundingClientRect().top);
+        if (d < minDist) { minDist = d; closest = i; }
+      });
+      currentIndex = closest;
+      counter.textContent = (currentIndex + 1) + ' / ' + allSlides.length;
+    });
+  </script>
+</body>
+</html>
